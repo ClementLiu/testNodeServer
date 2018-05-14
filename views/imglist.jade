@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1.
+    User List
+  ul
+    each img, i in imglist
+      li
+        img(src="/uploads/#{img.imgname}")
+        //- img(src="/uploads/image-1526022774530.jpg")
